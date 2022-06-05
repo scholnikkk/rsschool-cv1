@@ -31,7 +31,7 @@ I started learning Figma, HTML + CSS, C++ at the same time. But I got the most p
 
 ### Code Example:
 
-*My personal code from my univesity labs.* There is JS method for simple calculator, nothing difficult. Here code will be without HTML structure.
+*My personal code from my univesity labs.* There is JS method for simple calculator, nothing difficult. Here code will be without HTML structure. I have many more codes, but decided to use this one.
 
 ```javascript
 let display = document.getElementById("display");
@@ -53,3 +53,26 @@ let display = document.getElementById("display");
         display.value = eval(display.value); // i decided use eval here, because in this case eval is not devil, and when we create Simple calculator eval more convinient as I guess
     }
 ```
+--- 
+
+### Higher Education:
+
+**University:** BSU, School of Business, Information Resources Management
+
+---
+
+### Courses:
+
+- HTML & CSS studied at the University
+- HTML & CSS Course on the Stepik 
+- JavaScript Basics stuied at the University
+- JavaScript Course on the Stepik (in progress)
+- The Rolling Scopes Course "JavaScript/Front-end. Stage 0" (in progress)
+
+---
+
+### Languages:
+
+- English \- I don't know correctly my level, but for one year at the University I have been studying fully in English
+- Russian \- Native
+- Belorussian \- Upper-Intermediate
