@@ -1,5 +1,5 @@
 # Klevets Kirill
-### Junior Front-End Developer (in process)
+### Junior Java Developer (in process)
 
 ---
 
@@ -15,43 +15,93 @@
 ### Briefly About Myself:
 
 My interest in the world of IT began to develop from the moment of admission in university. <br>
-I started learning Figma, HTML + CSS, C++ at the same time. But I got the most pleasure from Figma and HTML, therefore I decided to become more interested in this area, because C++ didn't bring me such joy from the result of work.
-
+I started learning Figma, HTML + CSS, C++, Java at the same time. But I got the most pleasure from Java, therefore I decided to become more interested in this area.
 ---
 
 ### Skills:
 
 - HTML5, CSS3 Basics
-- JavaScript Basics
 - Figma
-- Adobe Photoshop Basics
-- VScode, Visual Studio
-
+- VScode, Visual Studio, IntelliJ IDEA
 ---
 
 ### Code Example:
 
-*My personal code from my univesity labs.* There is JS method for simple calculator, nothing difficult. Here code will be without HTML structure. I have many more codes, but decided to use this one.
+*My personal code from my univesity labs.* Java OOP exapmle.
+```java
+import java.lang.Math;
 
-```javascript
-let display = document.getElementById("display");
+class device{
 
-   function plus (x) {
-        display.value += x;
+    int power;
+
+    void turnOn() {
+        System.out.println("On");
+
+        int b = 0;
+        for (int i = 0; i < 5; i++) {
+            b += power;
+        }
+
+        System.out.println("Electricity consumption = " + b);
+
     }
 
-   function minus (x)  {
-        display.value += x;
+    void turnOf(){
+        System.out.println("Off. Electricity consumption = 0");
     }
-    function times (x) {
-        display.value += x;
+}
+
+class kitchenAppliances extends device {
+    public void microwave() {
+        power = 20;
+        int c = (int) (Math.random()*(1+1)) + 1;
+        if (c==2){
+            turnOn();
+        } else {
+            turnOf();
+        }
     }
-    function divide (x) {
-        display.value += x;
+
+    void combineHarvester() {
+        int d = (int) (Math.random()*(1+1)) + 1;
+        power = 25;
+        if (d==2){
+            turnOn();
+        } else {
+            turnOf();
+        }
     }
-    function sum (x) {
-        display.value = eval(display.value); // i decided use eval here, because in this case eval is not devil, and when we create Simple calculator eval more convinient as I guess
+}
+
+class WashingMachine extends device {
+    public void washingMachine(){
+        int e = (int) (Math.random()*(1+1)) + 1;
+        power = 40;
+        if (e==2){
+            turnOn();
+        } else {
+            turnOf();
+        }
     }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        //kitchen
+        kitchenAppliances kitchenAppliances = new kitchenAppliances();
+        kitchenAppliances.microwave();
+        kitchenAppliances.combineHarvester();
+
+        //washing machine
+        WashingMachine washingMachine = new WashingMachine();
+        washingMachine.washingMachine();
+
+    }
+
+
+}
 ```
 --- 
 
@@ -63,12 +113,10 @@ let display = document.getElementById("display");
 
 ### Courses:
 
-- HTML & CSS studied at the University
-- HTML & CSS Course on the Stepik 
-- JavaScript Basics stuied at the University
+- Java Basics in University
+- C++ Basics in University
 - JavaScript Course on the Stepik (in progress)
-- The Rolling Scopes Course "JavaScript/Front-end. Stage 0" (in progress)
-
+- Java Course on the EPAM Training Centre (in progress)
 ---
 
 ### Languages:
